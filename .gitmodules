@@ -1,0 +1,9 @@
+[submodule "rails-pack/lib/rinari"]
+	path = rails-pack/lib/rinari
+	url = git://github.com/eschulte/rinari.git
+[submodule "rails-pack/lib/rhtml"]
+	path = rails-pack/lib/rhtml
+	url = git://github.com/eschulte/rhtml.git
+[submodule "rails-pack/lib/scss-mode"]
+	path = rails-pack/lib/scss-mode
+	url = git://github.com/antonj/scss-mode.git
