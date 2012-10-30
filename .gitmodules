@@ -7,3 +7,6 @@
 [submodule "rails-pack/lib/scss-mode"]
 	path = rails-pack/lib/scss-mode
 	url = git://github.com/antonj/scss-mode.git
+[submodule "rails-pack/lib/less-mode"]
+	path = rails-pack/lib/less-mode
+	url = git://github.com/purcell/less-css-mode.git
