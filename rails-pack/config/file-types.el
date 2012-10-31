@@ -1,6 +1,7 @@
 ;; Adding additional file types
 (autoload 'ruby-mode "ruby-mode")
 (autoload 'rhtml-mode "rhtml-mode")
+(autoload 'js2-mode "js2-mode")
 (add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.thor$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
@@ -11,3 +12,4 @@
 (add-to-list 'auto-mode-alist '("\\.Capfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.Vagrantfile$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
+(add-to-list 'auto-mode-alist '("\\.js.erb" . js2-mode))
