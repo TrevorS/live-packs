@@ -15,8 +15,13 @@
 (live-add-pack-lib "scss-mode")
 (require 'scss-mode)
 
-;; Turn of compilation of scss on save
+;; Load less-mode
+(live-add-pack-lib "less-mode")
+(require 'less-css-mode)
+
+;; Turn of compilation of scss/less on save
 (setq scss-compile-at-save nil)
+(setq less-css-compile-at-save nil)
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
