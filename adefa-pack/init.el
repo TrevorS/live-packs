@@ -6,5 +6,8 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
-;; Load toggle-camel-case
+;; Load mo-toggle-camel-case
 (require 'mo-toggle-camel-case)
+
+;; Load header-to-setter
+(require 'header-to-setter)
