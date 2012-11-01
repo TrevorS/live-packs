@@ -5,3 +5,6 @@
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
+
+;; Load toggle-camel-case
+(require 'mo-toggle-camel-case)
