@@ -19,7 +19,10 @@
 (live-add-pack-lib "less-mode")
 (require 'less-css-mode)
 
-;; Turn of compilation of scss/less on save
+;; Load ew-electic-pair
+(require 'ew-electric-pair)
+
+;; Turn off compilation of scss/less on save
 (setq scss-compile-at-save nil)
 (setq less-css-compile-at-save nil)
 
