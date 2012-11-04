@@ -19,6 +19,10 @@
 (live-add-pack-lib "less-mode")
 (require 'less-css-mode)
 
+;; Load haml-mode
+(live-add-pack-lib "haml-mode")
+(require 'haml-mode)
+
 ;; Load ew-electic-pair
 (require 'ew-electric-pair)
 

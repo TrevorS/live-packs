@@ -10,3 +10,6 @@
 [submodule "rails-pack/lib/less-mode"]
 	path = rails-pack/lib/less-mode
 	url = git://github.com/purcell/less-css-mode.git
+[submodule "rails-pack/lib/haml-mode"]
+	path = rails-pack/lib/haml-mode
+	url = git://github.com/nex3/haml-mode.git
