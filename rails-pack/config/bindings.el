@@ -1,4 +1,4 @@
-;; Place your bindings here.
+;; rails-pack key bindings
 
 ;; Change ruby-mode key-bindings to ew-electric-pair
 (add-hook 'ruby-mode-hook

@@ -1,8 +1,4 @@
-;; Place your bindings here.
-
-;; For example:
-;;(define-key global-map (kbd "C-+") 'text-scale-increase)
-;;(define-key global-map (kbd "C--") 'text-scale-decrease)
+;; trevor-pack key bindings.
 
 ;; Stolen idea(s) from Magnar Sveen (magnars) of emacs-rocks fame.
 ;; Make it harder to quit emacs.
