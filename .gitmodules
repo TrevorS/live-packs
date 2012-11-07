@@ -13,9 +13,3 @@
 [submodule "rails-pack/lib/haml-mode"]
 	path = rails-pack/lib/haml-mode
 	url = git://github.com/nex3/haml-mode.git
-[submodule "trevor-pack/lib/ace-jump-mode"]
-	path = trevor-pack/lib/ace-jump-mode
-	url = git://github.com/winterTTr/ace-jump-mode.git
-[submodule "trevor-pack/lib/ace-jump-mode-new"]
-	path = trevor-pack/lib/ace-jump-mode-new
-	url = git://github.com/winterTTr/ace-jump-mode.git
