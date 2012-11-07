@@ -10,6 +10,9 @@
 (live-add-pack-lib "ace-jump-mode-new")
 (require 'ace-jump-mode)
 
+;; turn off the dark-background when using ace-jump-mode
+(setq ace-jump-mode-gray-background nil)
+
 ;; Load mo-toggle-camel-case
 (require 'mo-toggle-camel-case)
 
