@@ -6,9 +6,11 @@
 
 ##To Install:
 
+Make sure Emacs 24.x and Emacs-Live are both installed!
+
 Clone this repository:
 
-    git clone --recursive git://github.com/TrevorS/live-packs.git
+    git clone --recursive git://github.com/TrevorS/live-packs.git .live-packs
 
 Modify your `~/emacs-live.el`, and add these lines:
 
