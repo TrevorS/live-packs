@@ -10,5 +10,11 @@
 ;; Edit file with sudo
 (global-set-key (kbd "C-c C-f") 'sudo-edit)
 
-;; Set key binding for ace-jump-mode
-(define-key global-map (kbd "M-j") 'ace-jump-mode)
+;; Fix kill region
+(global-set-key (kbd "C-w") 'kill-region)
+
+;; Fix copy region
+(global-set-key (kbd "M-w") 'kill-ring-save)
+
+;; Fix yank
+(global-set-key (kbd "C-y") 'yank)
