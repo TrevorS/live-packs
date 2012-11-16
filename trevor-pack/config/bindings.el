@@ -18,3 +18,12 @@
 
 ;; Fix yank
 (global-set-key (kbd "C-y") 'yank)
+
+;; Browse kill ring
+(global-set-key (kbd "M-y") 'browse-kill-ring)
+
+;; Ace Jump Mode
+(global-set-key (kbd "C-o") 'ace-jump-mode)
+
+;; Magit
+(global-set-key (kbd "C-x g") 'magit-status)
