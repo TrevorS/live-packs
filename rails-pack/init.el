@@ -26,6 +26,10 @@
 ;; Load ew-electic-pair
 (require 'ew-electric-pair)
 
+;; Load coffee-mode
+(live-add-pack-lib "coffee-mode")
+(require 'coffee-mode)
+
 ;; Turn off compilation of scss/less on save
 (setq scss-compile-at-save nil)
 (setq less-css-compile-at-save nil)

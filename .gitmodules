@@ -13,3 +13,6 @@
 [submodule "rails-pack/lib/haml-mode"]
 	path = rails-pack/lib/haml-mode
 	url = git://github.com/nex3/haml-mode.git
+[submodule "rails-pack/lib/coffee-mode"]
+	path = rails-pack/lib/coffee-mode
+	url = git://github.com/defunkt/coffee-mode.git
