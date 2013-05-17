@@ -8,9 +8,3 @@
 
 ;; Load trevor-pack settings
 (live-load-config-file "settings.el")
-
-;; Load mo-toggle-camel-case
-(require 'mo-toggle-camel-case)
-
-;; Load header-to-setter
-(require 'header-to-setter)
