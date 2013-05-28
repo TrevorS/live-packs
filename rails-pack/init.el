@@ -23,9 +23,6 @@
 (live-add-pack-lib "haml-mode")
 (require 'haml-mode)
 
-;; Load ew-electic-pair
-(require 'ew-electric-pair)
-
 ;; Load coffee-mode
 (live-add-pack-lib "coffee-mode")
 (require 'coffee-mode)
