@@ -1,7 +1,7 @@
-;; User pack init file
-;;
-;; User this file to initiate the pack configuration.
-;; See README for more information.
+;; trevor-pack init file
+
+;; require uniquify to help rename buffers
+(require 'uniquify)
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
