@@ -1,7 +1,4 @@
-;; User pack init file
-;;
-;; User this file to initiate the pack configuration.
-;; See README for more information.
+;; rails-pack init file
 
 ;; Load Rinari
 (live-add-pack-lib "rinari")
@@ -27,12 +24,11 @@
 (live-add-pack-lib "coffee-mode")
 (require 'coffee-mode)
 
-;; Turn off compilation of scss/less on save
-(setq scss-compile-at-save nil)
-(setq less-css-compile-at-save nil)
-
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
 ;; Load additional file type associatons
 (live-load-config-file "file-types.el")
+
+;; Load settings
+(live-load-config-file "settings.el")
