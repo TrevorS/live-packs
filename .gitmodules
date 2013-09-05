@@ -1,3 +1,6 @@
 [submodule "go-pack/lib/go-mode"]
 	path = go-pack/lib/go-mode
 	url = git@github.com:dominikh/go-mode.el.git
+[submodule "rails-pack"]
+	path = rails-pack
+	url = git@github.com:TrevorS/rails-pack.git
